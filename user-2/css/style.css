@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(126, 125, 125);
+}
+
+
+.sidebar{
+    position: absolute;
+    top: 30%;
+    height: 300px;
+    width: 60px;
+    position:fixed;
+}
+.sidebar img{
+    height: 20%;
+    width: 100%;
+    margin: -2px;
+    transition: all 0.2s ease-out;
+    transform: translateX(-100px);
+}
+
+.sidebar img a{
+    width: 100px;
+    height: 100px;
+}
+.sidebar:hover img{
+    transform: translateX(0px   );
+}
+img:hover{
+    width: 70px;
+}
